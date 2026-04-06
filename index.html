@@ -1,0 +1,148 @@
+# FILE 1 - index.html
+
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Andika</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="bg-blur blur1"></div>
+  <div class="bg-blur blur2"></div>
+
+  <header class="navbar">
+    <div class="logo">Andika.</div>
+
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <p class="small-title">WELCOME TO MY PORTFOLIO</p>
+      <h1>Halo, Saya <span>Andika</span></h1>
+      <h2 class="typing"></h2>
+      <p class="description">
+        Saya suka membuat website modern dengan tampilan clean, animasi keren, dan user experience yang menarik.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary-btn">Lihat Project</a>
+        <a href="#contact" class="btn primary-btn">Contact Me</a>
+      </div>
+
+      <div class="social-icons">
+        <a href="#"><i class="ri-instagram-line"></i></a>
+        <a href="#"><i class="ri-github-line"></i></a>
+        <a href="#"><i class="ri-linkedin-line"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <div class="image-box">
+        <img src="https://andikanauf.github.io/Portfolio/aku.png.png" alt="Profile">
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="section-title">
+      <p>About Me</p>
+      <h2>Tentang Saya</h2>
+    </div>
+
+    <div class="about-container">
+      <div class="about-card">
+        <i class="ri-code-s-slash-line"></i>
+        <h3>Web Development</h3>
+        <p>Saya suka membuat website yang responsive, modern, dan enak dilihat.</p>
+      </div>
+
+      <div class="about-card">
+        <i class="ri-palette-line"></i>
+        <h3>UI Design</h3>
+        <p>Saya tertarik membuat tampilan website yang clean dan aesthetic.</p>
+      </div>
+
+      <div class="about-card">
+        <i class="ri-lightbulb-flash-line"></i>
+        <h3>Creative Ideas</h3>
+        <p>Saya suka mencoba konsep baru agar website terlihat lebih unik.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="section-title">
+      <p>My Skills</p>
+      <h2>Keahlian</h2>
+    </div>
+
+    <div class="skill-cards">
+      <div class="card">HTML</div>
+      <div class="card">CSS</div>
+      <div class="card">JavaScript</div>
+      <div class="card">PHP</div>
+      <div class="card">Laravel</div>
+      <div class="card">UI / UX</div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="section-title">
+      <p>Recent Work</p>
+      <h2>Project Saya</h2>
+    </div>
+
+    <div class="project-grid">
+      <div class="project-card">
+        <span>01</span>
+        <h3>Katalog Produk</h3>
+        <p>Website jual beli perangkat computer yang memadai</p>
+        <a href="https://andikanauf.github.io/Katalog_Produk/" target="_blank" class="project-btn">Lihat Website</a>
+      </div>
+
+      <div class="project-card">
+        <span>02</span>
+        <h3>Portfolio Modern</h3>
+        <p>Website portfolio dengan animasi modern dan tampilan premium</p>
+        <a href="https://andikanauf.github.io/portofolio/" target="_blank" class="project-btn">Lihat Website</a>
+      </div>
+
+      <div class="project-card">
+        <span>03</span>
+        <h3>Web jadwal sholat</h3>
+        <p>Web jadwal sholat yang akurat dan modern</p>
+        <a href="https://andikanauf.github.io/jadwalSholat/" target="_blank" class="project-btn">Lihat Website</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact-box">
+      <h2>Let's Work Together</h2>
+      <p>Punya ide project atau ingin bekerja sama? Hubungi saya sekarang.</p>
+      <a href="mailto:andika@email.com" class="btn primary-btn">Hubungi Saya</a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
