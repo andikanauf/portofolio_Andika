@@ -38,3 +38,4 @@ function typeEffect() {
 }
 
 typeEffect();
+
