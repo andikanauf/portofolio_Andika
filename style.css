@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #f8fafc;
+  background: #e8dcc8;
   color: #1e293b;
   overflow-x: hidden;
   position: relative;
@@ -24,13 +24,13 @@ body {
 }
 
 .blur1 {
-  background: rgba(59, 130, 246, 0.25);
+  background: rgba(201, 168, 122, 0.35);
   top: 50px;
   left: -100px;
 }
 
 .blur2 {
-  background: rgba(236, 72, 153, 0.2);
+  background: rgba(0, 0, 0, 0.15);
   bottom: 0;
   right: -100px;
 }
@@ -44,7 +44,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 248, 240, 0.85);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(15, 23, 42, 0.08);
   z-index: 1000;
@@ -53,7 +53,7 @@ body {
 .logo {
   font-size: 30px;
   font-weight: 800;
-  color: #38bdf8;
+  color: #c19a6b;
 }
 
 nav ul {
@@ -70,7 +70,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #38bdf8;
+  color: #c19a6b;
 }
 
 .hero {
@@ -83,7 +83,7 @@ nav ul li a:hover {
 }
 
 .small-title {
-  color: #38bdf8;
+  color: #c19a6b;
   letter-spacing: 3px;
   margin-bottom: 15px;
   font-size: 14px;
@@ -96,7 +96,7 @@ nav ul li a:hover {
 }
 
 .hero-text h1 span {
-  color: #38bdf8;
+  color: #c19a6b;
 }
 
 .hero-text h2 {
@@ -127,13 +127,15 @@ nav ul li a:hover {
 }
 
 .primary-btn {
-  background: linear-gradient(90deg, #38bdf8, #6366f1);
-  color: white;
+  background: #1a1a1a;
+  color: #f5e6d3;
+  border: 1px solid #1a1a1a;
 }
 
 .secondary-btn {
+  background: transparent;
   border: 1px solid rgba(15,23,42,0.15);
-  color: white;
+  color: #1e293b;
 }
 
 .btn:hover {
@@ -153,21 +155,22 @@ nav ul li a:hover {
   justify-content: center;
   border-radius: 50%;
   background: rgba(255,255,255,0.9);
-  color: white;
+  color: #1e293b;
   text-decoration: none;
   font-size: 20px;
   transition: 0.3s;
 }
 
 .social-icons a:hover {
-  background: #38bdf8;
+  background: #1a1a1a;
+  color: #f5e6d3;
 }
 
 .image-box {
   position: relative;
   padding: 10px;
   border-radius: 30px;
-  background: linear-gradient(135deg, #38bdf8, #8b5cf6);
+  background: linear-gradient(135deg, #c19a6b, #1a1a1a);
 }
 
 .image-box img {
@@ -181,7 +184,7 @@ section {
 }
 
 .section-title p {
-  color: #38bdf8;
+  color: #c19a6b;
   margin-bottom: 10px;
 }
 
@@ -201,17 +204,27 @@ section {
 .about-card,
 .card,
 .project-card,
+.contact-box {
+  background: rgba(255, 248, 240, 0.85);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  backdrop-filter: blur(10px);
+  border-radius: 25px;
+  padding: 30px;
+  transition: 0.3s;
+}
+
 .project-btn {
   display: inline-block;
   margin-top: 20px;
   padding: 12px 22px;
-  background: linear-gradient(90deg, #38bdf8, #6366f1);
-  color: white;
+  background: #c19a6b;
+  color: #1a1a1a;
   text-decoration: none;
   border-radius: 12px;
   font-size: 14px;
   font-weight: 600;
   transition: 0.3s;
+  border: 1px solid #c19a6b;
 }
 
 .project-btn:hover {
@@ -220,7 +233,7 @@ section {
 }
 
 .contact-box {
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 248, 240, 0.85);
   border: 1px solid rgba(15, 23, 42, 0.08);
   backdrop-filter: blur(10px);
   border-radius: 25px;
@@ -233,12 +246,12 @@ section {
 .project-card:hover,
 .contact-box:hover {
   transform: translateY(-8px);
-  border-color: rgba(56, 189, 248, 0.5);
+  border-color: rgba(193, 154, 107, 0.5);
 }
 
 .about-card i {
   font-size: 40px;
-  color: #38bdf8;
+  color: #c19a6b;
   margin-bottom: 20px;
 }
 
@@ -250,6 +263,14 @@ section {
 .card {
   text-align: center;
   font-weight: 600;
+}
+
+.project-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 18px;
+  margin-bottom: 20px;
 }
 
 .project-card span {
@@ -307,4 +328,3 @@ section {
     font-size: 14px;
   }
 }
-
